@@ -1,0 +1,449 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+header, ul
+{
+    display: flex;
+}
+header ul li:first-child
+{
+    margin-right: 30px;
+}
+header ul li 
+{
+    list-style: none;
+    text-decoration: none;
+    border-top: 2px solid #fff;
+    height: 100%;
+    padding-top: 20px;
+}
+header ul li:hover
+{
+    color:#0065FC;
+    border-top-color: #0065FC;
+}
+header ul li:hover a
+{
+    color:#0065FC;
+    
+}
+header
+{
+    justify-content: space-between;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+form
+{
+    display: flex;
+}
+form i.fa-map-marker-alt
+{
+    background: #ccc;
+    width: 45px;
+    height: 45px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+}
+.btn_search
+{
+    border-radius: 0 10px 10px 0;
+    background: #0065FC;
+    color: #fff;
+    border: #0065FC;
+}
+.fa-search
+{
+    display: none;
+    visibility: hidden;
+}
+.champ_search
+{
+    color: #000;
+}
+.filtres_content
+{
+    display: flex;
+
+}
+.filtres_conteneur
+{
+    display: flex;
+    align-items: center;
+}
+.filtres_categorie
+{
+    display: flex;
+    
+}
+.i_filtre
+{
+    width: fit-content;
+    padding-right: 10px ;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    height: 40px;
+    background-color:#fff;
+    border: 2px solid #f2f2f2;
+    
+}
+.i_filtre:hover
+{
+    background: #DEEBFF;
+}
+.i_filtre i
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #DEEBFF;
+    color: #0065FC;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info
+{
+    display: flex;
+}
+.info i
+{
+    color: #0065FC;
+    border-radius: 50%;
+    border: 1px solid #f2f2f2;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.hebergements-content
+{
+     display: flex;
+}
+.hebergements_conteneur
+{
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #f2f2f2;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+aside
+{
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #F2F2F2;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 25px 0;
+    background-color: #f2f2f2;
+}
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card
+{
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    background: #fff;
+    padding-bottom: 15px;
+} 
+.card img
+{
+   width: 100%;
+   object-fit: cover;
+   height: 150px;
+   border-radius: 20px 20px 0 0;
+}
+.card:hover, .popu_element:hover, .iles:hover , .vieux_port:hover, .fort:hover, .parc_national:hover, .notre_dame:hover, .parc_longchamp:hover
+{
+    box-shadow: 0 0 10px #0065FC;
+}
+.fa-star
+{
+    color: #0065FC;
+}
+.grey
+{
+    color: #f2f2f2;
+}
+.popular
+{
+    display:flex;
+    flex-direction: column ;
+    margin-top: 50px;
+    padding: 20px;
+}
+.popu_element >div
+    {
+        padding-left: 15px;
+       }
+.popu_element
+{
+    display:flex;
+}
+.popu_element a
+{
+    width: 160px;
+}
+.popu_element img
+{
+    width: 160px;
+    object-fit: cover;
+    height: 160px;
+    border-radius: 20px 0 0 20px;
+}
+.popu_element
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 50px;
+    background: #fff;
+    box-shadow: 0 0 12px #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    height: 160px;
+    position: relative;
+}
+.popu_element h3, .popu_element p, .card h3, .card p
+{
+    margin: 5px 0;
+}
+.popu_element h3
+{
+    font-size: 0.9em;
+}
+aside h2
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.bottom-star
+{
+    bottom: 10px;
+    position: absolute;
+}
+.activit_content
+{
+    display: flex;
+}
+
+.activit
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.activit > div
+{
+     width: 23%
+}
+.activit h3, #activites
+{
+    padding-left: 15px;
+}
+aside h2
+{
+    padding-left: 10px;
+}
+.iles
+{
+    flex-wrap: wrap;
+}
+.vieux_port
+{
+    width: 20%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+}
+.vieux_port img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+.fort
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+    height: 20%;
+}
+.fort img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 160px;
+    border-radius: 20px 20px 0 0;
+}
+.iles
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+    height: 20%;
+}
+.iles img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 160px;
+    border-radius: 20px 20px 0 0;
+}
+.parc_national
+{
+    width: 20%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+}
+.parc_national img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    border-radius: 20px 20px 0 0;
+}
+.notre_dame
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+    height: 20%;
+}
+.notre_dame img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 160px;
+    border-radius: 20px 20px 0 0;
+}
+.parc_longchamp
+{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+    height: 20%;
+}
+.parc_longchamp img
+{
+    width: 100%;
+    object-fit: cover;
+    height: 160px;
+    border-radius: 20px 20px 0 0;
+}
+.propos, .propos ul
+{
+    display: flex;
+}
+.propos ul
+{
+    flex-direction: column;
+    gap: 15px;
+}
+.a_propos_info
+{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #f2f2f2;
+    background-color: #f2f2f2;
+    justify-content: flex-start;
+    gap: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.propos a
+{
+    color: #797979;
+}
+.info_propos, .nos_hebergements, .assistance
+{
+    width: 33%;
+}
+p
+{
+    color: #797979 ;
+}
+ul
+{
+    padding-left: 5px;
+    margin-top: 0;
+}
+ul li
+{
+    list-style: none;
+}
+@media screen and (min-width: 993px) and (max-width:1190px)
+{
+    aside 
+    {
+        width: 100%;
+    }
+    .hebergements-content
+    {
+        flex-direction: column-reverse;
+    }
+    .popu_element
+    {
+        width: 45%;
+    }
+    .popular
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .hebergements_conteneur
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .hebergements_conteneur h2 
+    {
+        padding-left: 10px;
+    }
+}
+

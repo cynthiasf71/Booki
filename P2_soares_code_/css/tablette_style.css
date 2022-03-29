@@ -1,0 +1,174 @@
+@media screen and (min-width:769px) and (max-width: 992px)
+{
+    header, ul, #logo
+    {
+        display: flex;
+        width: auto;
+        flex-wrap: wrap;
+        
+    }
+    #logo
+    {
+        flex: 1 100%;
+        justify-content: center;
+    }
+    header ul, nav
+    {
+        width: 100%;
+    }
+    header ul li
+    {
+        flex: 1;
+        justify-content: center;
+        border-bottom: 3px solid #fff;
+        border-top: none;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    header ul 
+    {
+        border-bottom: 1px solid #f2f2f2;
+    }
+    header ul li:hover
+    {
+        border-bottom-color: #0065FC;
+    }
+
+    .en-tete 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 
+    {
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    .filtres_conteneur
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .filtres_categorie
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .fa-search
+    {
+        border-radius: 0 10px 10px 0;
+        background: #0065FC;
+        color: #fff;
+        border: #0065FC;
+        width: 45px;
+        height: 45px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        visibility: visible;
+    }
+    .btn_search
+    {
+        display: none;
+    }
+    .popu_element >div
+    {
+        padding-left: 15px;
+    }
+    .hebergements-content
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    aside 
+    {
+        width: 100%;
+        padding: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+    }
+    aside h2
+    {
+        padding: 15px;
+    }
+    .hebergements_conteneur
+    {
+        width: 100%;     
+        padding: 0px;
+        margin: 0px;
+        box-shadow: none;
+        background-color: #fff;   
+    }
+    .popu_element h3
+    {
+       font-size: 1.1em;
+    }
+    .card
+    {
+        width: 45%;
+    }
+    
+    .activite_conteneur
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .activit
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .activit > div
+    {
+        width: none;
+    }
+    .fort_iles, .parc_national, .dame_lonchamp, .parc_longchamp, .vieux_port
+    {
+        width: 100% !important;
+    }
+    .iles , .vieux_port, .fort, .parc_national, .notre_dame, .parc_longchamp
+    {
+        width: 100%;
+        height: 250px;
+        padding-bottom: 5px;
+    }
+    .fort, .iles, .notre_dame, .parc_longchamp
+    {
+        width: 47% !important;
+    }
+    .fort_iles, .dame_lonchamp
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    .activit h3
+    {
+        padding-left: 15px;
+    }
+    .vieux_port img, .parc_national img, .fort img, .iles img, .notre_dame img, .parc_longchamp img
+    {
+        height: 180px;
+    }
+    .a_propos_info
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .a_propos, .nos_hebergements, .assistance
+    {
+        width: 100%;
+    }
+        
+
+    
+}
